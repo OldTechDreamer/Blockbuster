@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blockbusters</title>
+		
+		<script type = "text/javascript" src = "script.js"></script>
+		<script type = "text/javascript" src = "rounds.js"></script>
+		
+		<link rel = "stylesheet" type = "text/css" href = "styles.css" />
+	</head>
+	
+	<body onLoad = "StartBlockbusters();">
+		<div id = "container">
+			<svg id = "blocks">
+				<!-- SVG image will be created here by script.js -->
+			</svg>
+		</div>
+		
+		<select id = "rounds" onClick = "LoadRound(this.value);">
+			<!-- Rounds will be created here from rounds.js -->
+		</select>
+	</body>
+</html>

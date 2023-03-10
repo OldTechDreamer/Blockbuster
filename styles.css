@@ -1,0 +1,34 @@
+body{
+	margin:0px;
+	padding:0px;
+	
+	background-color:#0A104A;
+	background-image:url("background.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#container{
+	position:fixed;
+	background-color:#000000;
+}
+
+#rounds{
+	position:fixed;
+	left:10px;
+	top:10px;
+	
+	font-size:150%;
+	
+	z-index: 1000000;
+}
+
+@font-face{
+	font-family: CfLCD;
+	src: url('CFLCD-Regular.ttf');
+}
